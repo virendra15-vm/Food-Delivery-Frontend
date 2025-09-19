@@ -9,6 +9,7 @@ const [menu, setMenu] = useState("home");
 
 const {getTotalCartAmount} = useContext(StoreContext)
 
+
     return (
         <div className='navbar'>
             <Link to={'/'}><img src={assets.logo} alt="" className="logo" /></Link>
